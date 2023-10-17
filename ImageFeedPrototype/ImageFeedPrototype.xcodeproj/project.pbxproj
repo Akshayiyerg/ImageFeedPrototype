@@ -12,6 +12,8 @@
 		BA0175E12ADF2705008FECFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA0175DF2ADF2705008FECFE /* Main.storyboard */; };
 		BA0175E32ADF2707008FECFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA0175E22ADF2707008FECFE /* Assets.xcassets */; };
 		BA0175E62ADF2707008FECFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA0175E42ADF2707008FECFE /* LaunchScreen.storyboard */; };
+		BA0175EE2ADF4A52008FECFE /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0175ED2ADF4A52008FECFE /* FeedViewController.swift */; };
+		BA0175F02ADF4DD1008FECFE /* FeedImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0175EF2ADF4DD1008FECFE /* FeedImageViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BA0175E22ADF2707008FECFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA0175E52ADF2707008FECFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA0175E72ADF2707008FECFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA0175ED2ADF4A52008FECFE /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		BA0175EF2ADF4DD1008FECFE /* FeedImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				BA0175E22ADF2707008FECFE /* Assets.xcassets */,
 				BA0175E42ADF2707008FECFE /* LaunchScreen.storyboard */,
 				BA0175E72ADF2707008FECFE /* Info.plist */,
+				BA0175ED2ADF4A52008FECFE /* FeedViewController.swift */,
+				BA0175EF2ADF4DD1008FECFE /* FeedImageViewModel.swift */,
 			);
 			path = ImageFeedPrototype;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA0175DA2ADF2705008FECFE /* AppDelegate.swift in Sources */,
+				BA0175EE2ADF4A52008FECFE /* FeedViewController.swift in Sources */,
+				BA0175F02ADF4DD1008FECFE /* FeedImageViewModel.swift in Sources */,
 				BA0175DC2ADF2705008FECFE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
